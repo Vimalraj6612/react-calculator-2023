@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&dispaly=swap");
+
+.container {
+  background-color: whitesmoke;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.container .title {
+  padding: 20px;
+}
+.container .title .txt {
+  font-size: 2.3rem;
+  color: #222;
+}
+
+.display{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  background-color: black;
+  color: #fff;
+}
+
+.display .inp{
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.display .out{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.btn-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 2px;
+}
+
+.btn-container .btn{
+  background-color: rgb(45, 142, 42);
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1.2rem;
+  cursor: pointer;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.equl{
+  background-color: grey;
+  
+}
+op{
+  background-color: orangered;
+}
+
+.red{
+  background-color: red;
+}
+
+.del {
+  background-color: blue;
+}
